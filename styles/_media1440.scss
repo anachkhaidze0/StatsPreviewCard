@@ -1,0 +1,41 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        flex-direction: row-reverse;
+        text-align: start;
+      
+        .image {
+          background-image: linear-gradient(to right, rgba(195, 0, 255, 0.2), rgba(255, 25, 255, 0.23)), url(../images/image-header-desktop.jpg);
+          width: 30%;
+          height: 51.5%;
+          border-top-left-radius: 0rem;
+          border-bottom-right-radius: 0.5rem;  
+        }
+      
+        .card {
+          width: 30%;
+          padding: 3rem;
+          border-radius: 0rem;
+          border-top-left-radius: 0.5rem;
+          border-bottom-left-radius: 0.5rem;
+          border-bottom-right-radius: 0;
+
+          .title {
+            font-size: 1.9rem;
+            line-height: 2.3rem;
+          }
+      
+          .main-paragraph {
+            font-size: 0.8rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+      
+          .stats {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+        }
+      }
+      
+}

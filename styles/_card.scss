@@ -1,0 +1,68 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+  .image {
+    background-image: linear-gradient(to right, rgba(195, 0, 255, 0.2), rgba(255, 25, 255, 0.23)), url(../images/image-header-mobile.jpg);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 87%;
+    height: 30%;
+}
+
+  .card {
+    background-color: $card-background;
+    width: 87%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+
+    .title {
+      color: $heading-stats;
+      font-size: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: 1.9rem;
+      line-height: 1.7rem;
+      span {
+        color: $accent;
+      }
+    }
+
+    .main-paragraph {
+      color: $main-paragraph;
+      font-size: 0.8rem;
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+      margin-top: 0.9rem;
+      line-height: 1.33rem;
+    }
+
+    .stats {
+      margin-top: 2rem;
+      font-family: 'Lexend Deca', sans-serif;
+
+      .title-2 {
+        color: $heading-stats;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+      }
+
+      .text {
+        color: $stat-headings;
+        font-size: 0.7rem;
+        margin-top: 0.6rem;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}
